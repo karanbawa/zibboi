@@ -18,7 +18,6 @@ const Home: NextPageWithLayout = () => {
         priority
       />
       <Search />
-      Hi
       <p>
         Google offered in:{' '}
         <Link href="/" locale={locale === 'en' ? 'fr' : 'en'}>
